@@ -1,0 +1,24 @@
+VS Code (recommended IDE)
+Node.js (v18 or v20)
+Rust (latest stable version)
+Tauri CLI
+rust-analyzer (VS Code extension)
+Git
+🔧 Installation & Setup
+1. Clone the repository
+git clone https://github.com/<your-username>/voice-to-text-tauri-deepgram.git
+cd voice-to-text-tauri-deepgram
+2. Install frontend dependencies
+npm install
+3. Install Tauri CLI (if not installed)
+cargo install tauri-cli
+4. Add Deepgram API Key
+
+Create a .env file in the root folder:
+
+VITE_DEEPGRAM_API_KEY=your_api_key_here
+5. Run the application
+npm run tauri dev
+🏗️ Build for Production
+npm run tauri build
+⚠️ Notes
